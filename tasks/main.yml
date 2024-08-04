@@ -1,0 +1,7 @@
+- name: "Install the 'unzip' utility package"
+  ansible.builtin.package:
+    name: unzip
+    state: present
+  become: true
+  become_user: root
+
